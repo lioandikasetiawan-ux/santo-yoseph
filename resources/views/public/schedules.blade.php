@@ -4,116 +4,111 @@
 
 @section('content')
 <!-- Hero Section -->
-<div class="bg-blue-900 text-white py-10 mb-8">
+<div class="bg-blue-900 text-white py-12 mb-10">
     <div class="max-w-7xl mx-auto px-4 text-center">
-        <h1 class="text-3xl font-extrabold mb-2">Jadwal Perayaan Ekaristi / Misa</h1>
+        <h1 class="text-3xl md:text-4xl font-extrabold mb-2 font-serif">Jadwal Perayaan Ekaristi / Misa</h1>
         <p class="text-blue-100 text-sm">Informasi lengkap jadwal peribadatan dan perayaan misa paroki.</p>
     </div>
 </div>
 
-<div class="max-w-7xl mx-auto px-4 mb-12">
-    <!-- Grid Layout 2 Card Utama Bersampingan -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+<div class="max-w-7xl mx-auto px-4 mb-16">
+    <div class="space-y-8 md:space-y-12">
 
-        <!-- CARD 1: Jadwal Misa Rutin (Tetap) -->
-        <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
-            <div>
-                <h2 class="text-lg font-bold text-gray-800 flex items-center gap-2 mb-4 pb-2 border-b border-gray-100">
-                    <span>📅</span> Jadwal Misa Rutin (Tetap)
-                </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+            <!-- Misa Rutin -->
+            <div class="group relative bg-white/80 backdrop-blur-xl rounded-[2rem] border border-slate-200/80 shadow-xl shadow-slate-200/40 p-5 sm:p-6 md:p-8 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
+                <div class="flex justify-between items-center mb-5 pb-4 border-b border-slate-100">
+                    <div class="flex items-center space-x-3">
+                        <div class="p-2.5 md:p-3 bg-amber-500 text-slate-950 rounded-2xl shadow-lg shadow-amber-500/30">
+                            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        </div>
+                        <h3 class="text-lg md:text-xl font-bold text-slate-900 font-serif">Misa Harian</h3>
+                    </div>
+                </div>
 
-                <div class="space-y-4">
-                    <!-- Misa Harian Pagi -->
-                    <div class="p-4 bg-gray-50/80 rounded-lg flex items-center justify-between">
-                        <div>
-                            <span class="text-[10px] font-semibold bg-blue-100 text-blue-700 px-2.5 py-1 rounded uppercase tracking-wide">
-                                Senin - Jumat
-                            </span>
-                            <h3 class="font-bold text-sm text-gray-800 mt-2">Misa Harian Pagi</h3>
+                <div class="space-y-3.5">
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
+                        <div class="space-y-1">
+                            <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Senin - Jumat</span>
+                            <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Harian Pagi</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm font-bold text-blue-900">⏰ 06.00 WIB</p>
-                            <p class="text-xs text-gray-500 mt-0.5">📍 Aula Gereja Paroki Santo Yoseph Sidareja</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">06.00 WIB</p>
+                            <p class="text-[11px] text-slate-500 font-medium">Gereja Utama</p>
                         </div>
                     </div>
 
-                    <!-- Misa Sabtu Sore -->
-                    <div class="p-4 bg-gray-50/80 rounded-lg flex items-center justify-between">
-                        <div>
-                            <span class="text-[10px] font-semibold bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded uppercase tracking-wide">
-                                Sabtu Sore
-                            </span>
-                            <h3 class="font-bold text-sm text-gray-800 mt-2">Misa Mingguan (Vigili)</h3>
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
+                        <div class="space-y-1">
+                            <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Sabtu Sore</span>
+                            <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Vigili</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm font-bold text-indigo-900">⏰ 18.00 WIB</p>
-                            <p class="text-xs text-gray-500 mt-0.5">📍 Aula Gereja Paroki Santo Yoseph Sidareja</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">18.00 WIB</p>
+                            <p class="text-[11px] text-slate-500 font-medium">Gereja Utama</p>
                         </div>
                     </div>
 
-                    <!-- Misa Minggu Pagi -->
-                    <div class="p-4 bg-gray-50/80 rounded-lg flex items-center justify-between">
-                        <div>
-                            <span class="text-[10px] font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded uppercase tracking-wide">
-                                Minggu Pagi
-                            </span>
-                            <h3 class="font-bold text-sm text-gray-800 mt-2">Misa Mingguan</h3>
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
+                        <div class="space-y-1">
+                            <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Minggu Pagi</span>
+                            <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Mingguan</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm font-bold text-emerald-900">⏰ 07.00 WIB</p>
-                            <p class="text-xs text-gray-500 mt-0.5">📍 Aula Gereja Paroki Santo Yoseph Sidareja</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">07.00 WIB</p>
+                            <p class="text-[11px] text-slate-500 font-medium">Gereja Utama</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- CARD 2: Jadwal Misa Khusus / Hari Raya -->
-        <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
-            <div>
-                <h2 class="text-lg font-bold text-gray-800 flex items-center gap-2 mb-4 pb-2 border-b border-gray-100">
-                    <span>✨</span> Jadwal Misa Khusus / Hari Raya
-                </h2>
+            <!-- Misa Khusus -->
+            <div class="group relative bg-white/80 backdrop-blur-xl rounded-[2rem] border border-slate-200/80 shadow-xl shadow-slate-200/40 p-5 sm:p-6 md:p-8 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
+                <div class="flex justify-between items-center mb-5 pb-4 border-b border-slate-100">
+                    <div class="flex items-center space-x-3">
+                        <div class="p-2.5 md:p-3 bg-slate-900 text-amber-400 rounded-2xl shadow-lg shadow-slate-900/30">
+                            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                        </div>
+                        <h3 class="text-lg md:text-xl font-bold text-slate-900 font-serif">Misa Khusus dan Hari Raya</h3>
+                    </div>
+                </div>
 
-                <div class="space-y-4">
+                <div class="space-y-3.5">
                     @forelse($schedules as $item)
-                    @php
-                        $dt = \Carbon\Carbon::parse($item->schedule_time);
+                    @php 
+                        $dt = \Carbon\Carbon::parse($item->schedule_time); 
                     @endphp
-                    <div class="p-4 bg-gray-50/80 rounded-lg flex flex-col justify-between gap-2">
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex flex-col justify-between gap-2 hover:border-amber-400 transition">
                         <div class="flex items-center justify-between">
-                            <div>
-                                <span class="text-[10px] font-semibold bg-amber-100 text-amber-800 px-2.5 py-1 rounded uppercase tracking-wide">
-                                    {{ $dt->translatedFormat('l, d M Y') }}
+                            <div class="space-y-1">
+                                <span class="text-[10px] font-bold bg-slate-900 text-amber-400 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                                    {{ $dt->translatedFormat('d M Y') }}
                                 </span>
-                                <h3 class="font-bold text-sm text-gray-800 mt-2">{{ $item->title }}</h3>
+                                <h4 class="font-bold text-xs md:text-sm text-slate-800">{{ $item->title }}</h4>
                             </div>
                             <div class="text-right">
-                                <p class="text-sm font-bold text-amber-900">⏰ {{ $dt->format('H:i') }} WIB</p>
-                                <p class="text-xs text-gray-500 mt-0.5">📍 {{ $item->location }}</p>
+                                <p class="text-sm md:text-base font-black text-slate-900">{{ $dt->format('H:i') }} WIB</p>
+                                <p class="text-[11px] text-slate-500 font-medium">{{ $item->location }}</p>
                             </div>
                         </div>
 
                         @if($item->description)
-                        <div class="pt-2 border-t border-gray-200/60 mt-1">
-                            <p class="text-xs text-gray-500 italic">{{ $item->description }}</p>
+                        <div class="pt-2 border-t border-slate-200/60 mt-1">
+                            <p class="text-xs text-slate-500 italic">{{ $item->description }}</p>
                         </div>
                         @endif
                     </div>
                     @empty
-                    <div class="py-12 text-center text-sm text-gray-400">
-                        Belum ada jadwal misa khusus mendatang.
-                    </div>
+                    <div class="py-12 text-center text-xs font-medium text-slate-400">Belum ada jadwal misa khusus mendatang.</div>
                     @endforelse
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
 {{-- Footer --}}
-<footer class="bg-blue-950 text-gray-200 py-8 md:py-12 mt-16 md:mt-20 border-t border-blue-900">
+<footer class="bg-blue-950 text-gray-200 py-8 md:py-12 border-t border-blue-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
         {{-- Logo dan Nama Paroki di Footer --}}
         <div class="flex flex-col items-center sm:items-start text-center sm:text-left col-span-2 sm:col-span-1">

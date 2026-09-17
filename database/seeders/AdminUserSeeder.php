@@ -15,8 +15,8 @@ class AdminUserSeeder extends Seeder
     {
         User::create([
             'name' => 'Admin Paroki',
-            'email' => 'admin@parokisidareja.org',
-            'password' => Hash::make('password123'),
+            'email' => 'admin',
+            'password' => Hash::make('123'),
         ]);
     }
 }

@@ -104,7 +104,7 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 md:mt-12 py-8 md:py-16 space-y-14 md:space-y-24">
 
     <!-- SECTION 1: JADWAL MISA -->
-    <div class="space-y-8 md:space-y-12">
+<div class="space-y-8 md:space-y-12">
         <!-- Header Section -->
         <div class="text-center max-w-2xl mx-auto space-y-3 md:space-y-5">
             <div>
@@ -115,54 +115,54 @@
             <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 font-serif tracking-tight leading-snug">
                 Perayaan Ekaristi Paroki
             </h2>
-            <div class="w-12 md:w-16 h-1.5 bg-gradient-to-r from-amber-500 to-amber-300 mx-auto rounded-full mt-2"></div>
+            <div class="w-12 md:w-16 h-1.5 bg-amber-500 mx-auto rounded-full mt-2"></div>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
             <!-- Misa Rutin -->
-            <div class="group relative bg-white/80 backdrop-blur-xl rounded-[2rem] border border-slate-200/80 shadow-xl shadow-slate-200/40 p-5 sm:p-6 md:p-8 hover:shadow-2xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300">
+            <div class="group relative bg-white/80 backdrop-blur-xl rounded-[2rem] border border-slate-200/80 shadow-xl shadow-slate-200/40 p-5 sm:p-6 md:p-8 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
                 <div class="flex justify-between items-center mb-5 pb-4 border-b border-slate-100">
                     <div class="flex items-center space-x-3">
-                        <div class="p-2.5 md:p-3 bg-gradient-to-br from-amber-500 to-amber-600 text-white rounded-2xl shadow-lg shadow-amber-500/30 group-hover:scale-110 transition-transform">
+                        <div class="p-2.5 md:p-3 bg-amber-500 text-slate-950 rounded-2xl shadow-lg shadow-amber-500/30">
                             <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                         </div>
                         <h3 class="text-lg md:text-xl font-bold text-slate-900 font-serif">Misa Harian</h3>
                     </div>
-                    <a href="{{ route('public.schedules') }}" class="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center gap-1 group/btn transition">
-                        Detail <span class="group-hover/btn:translate-x-1 transition-transform">&rarr;</span>
+                    <a href="{{ route('public.schedules') }}" class="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center gap-1 transition">
+                        Detail &rarr;
                     </a>
                 </div>
 
                 <div class="space-y-3.5">
-                    <div class="p-3.5 md:p-4 bg-gradient-to-r from-blue-50/50 to-indigo-50/30 rounded-2xl border border-blue-100/60 flex items-center justify-between hover:bg-blue-50 transition">
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
                         <div class="space-y-1">
-                            <span class="text-[10px] font-bold bg-blue-600 text-white px-2.5 py-0.5 rounded-full uppercase tracking-wider">Senin - Jumat</span>
+                            <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Senin - Jumat</span>
                             <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Harian Pagi</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm md:text-base font-black text-blue-900">06.00 WIB</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">06.00 WIB</p>
                             <p class="text-[11px] text-slate-500 font-medium">Gereja Utama</p>
                         </div>
                     </div>
 
-                    <div class="p-3.5 md:p-4 bg-gradient-to-r from-purple-50/50 to-indigo-50/30 rounded-2xl border border-purple-100/60 flex items-center justify-between hover:bg-purple-50 transition">
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
                         <div class="space-y-1">
-                            <span class="text-[10px] font-bold bg-purple-600 text-white px-2.5 py-0.5 rounded-full uppercase tracking-wider">Sabtu Sore</span>
+                            <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Sabtu Sore</span>
                             <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Vigili</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm md:text-base font-black text-purple-900">18.00 WIB</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">18.00 WIB</p>
                             <p class="text-[11px] text-slate-500 font-medium">Gereja Utama</p>
                         </div>
                     </div>
 
-                    <div class="p-3.5 md:p-4 bg-gradient-to-r from-emerald-50/50 to-teal-50/30 rounded-2xl border border-emerald-100/60 flex items-center justify-between hover:bg-emerald-50 transition">
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
                         <div class="space-y-1">
-                            <span class="text-[10px] font-bold bg-emerald-600 text-white px-2.5 py-0.5 rounded-full uppercase tracking-wider">Minggu Pagi</span>
+                            <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Minggu Pagi</span>
                             <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Mingguan</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm md:text-base font-black text-emerald-900">07.00 WIB</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">07.00 WIB</p>
                             <p class="text-[11px] text-slate-500 font-medium">Gereja Utama</p>
                         </div>
                     </div>
@@ -170,31 +170,31 @@
             </div>
 
             <!-- Misa Khusus -->
-            <div class="group relative bg-white/80 backdrop-blur-xl rounded-[2rem] border border-slate-200/80 shadow-xl shadow-slate-200/40 p-5 sm:p-6 md:p-8 hover:shadow-2xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300">
+            <div class="group relative bg-white/80 backdrop-blur-xl rounded-[2rem] border border-slate-200/80 shadow-xl shadow-slate-200/40 p-5 sm:p-6 md:p-8 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
                 <div class="flex justify-between items-center mb-5 pb-4 border-b border-slate-100">
                     <div class="flex items-center space-x-3">
-                        <div class="p-2.5 md:p-3 bg-gradient-to-br from-indigo-600 to-purple-600 text-white rounded-2xl shadow-lg shadow-indigo-500/30 group-hover:scale-110 transition-transform">
+                        <div class="p-2.5 md:p-3 bg-slate-900 text-amber-400 rounded-2xl shadow-lg shadow-slate-900/30">
                             <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
                         </div>
                         <h3 class="text-lg md:text-xl font-bold text-slate-900 font-serif">Misa Khusus dan Hari Raya</h3>
                     </div>
-                    <a href="{{ route('public.schedules') }}" class="text-xs font-bold text-indigo-600 hover:text-indigo-700 flex items-center gap-1 group/btn transition">
-                        Semua <span class="group-hover/btn:translate-x-1 transition-transform">&rarr;</span>
+                    <a href="{{ route('public.schedules') }}" class="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center gap-1 transition">
+                        Semua &rarr;
                     </a>
                 </div>
 
                 <div class="space-y-3.5">
                     @forelse($schedules->take(3) as $item)
                     @php $dt = \Carbon\Carbon::parse($item->schedule_time); @endphp
-                    <div class="p-3.5 md:p-4 bg-gradient-to-r from-amber-50/60 to-orange-50/40 rounded-2xl border border-amber-200/60 flex items-center justify-between hover:bg-amber-50 transition">
+                    <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
                         <div class="space-y-1">
-                            <span class="text-[10px] font-bold bg-amber-500 text-white px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                            <span class="text-[10px] font-bold bg-slate-900 text-amber-400 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
                                 {{ $dt->translatedFormat('d M Y') }}
                             </span>
                             <h4 class="font-bold text-xs md:text-sm text-slate-800">{{ $item->title }}</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-sm md:text-base font-black text-amber-900">{{ $dt->format('H:i') }} WIB</p>
+                            <p class="text-sm md:text-base font-black text-slate-900">{{ $dt->format('H:i') }} WIB</p>
                             <p class="text-[11px] text-slate-500 font-medium">{{ $item->location }}</p>
                         </div>
                     </div>
