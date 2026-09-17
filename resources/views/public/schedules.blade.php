@@ -41,7 +41,7 @@
                     <div class="p-3.5 md:p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:border-amber-400 transition">
                         <div class="space-y-1">
                             <span class="text-[10px] font-bold bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Sabtu Sore</span>
-                            <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Vigili</h4>
+                            <h4 class="font-bold text-xs md:text-sm text-slate-800">Misa Harian Sore</h4>
                         </div>
                         <div class="text-right">
                             <p class="text-sm md:text-base font-black text-slate-900">18.00 WIB</p>
