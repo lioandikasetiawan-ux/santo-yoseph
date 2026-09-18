@@ -34,15 +34,13 @@
             startAutoSlide() {
                 this.timer = setInterval(() => {
                     this.activeSlide = this.activeSlide === this.slides.length ? 1 : this.activeSlide + 1;
-                }, 5000);
+                }, 3000);
             },
             stopAutoSlide() {
                 clearInterval(this.timer);
             }
         }" 
         x-init="startAutoSlide()" 
-        @mouseenter="stopAutoSlide()" 
-        @mouseleave="startAutoSlide()"
         class="relative w-full overflow-hidden bg-slate-950 shadow-xl">
 
         <!-- Slide Containers (Tinggi dikurangi di HP: h-[360px]) -->
