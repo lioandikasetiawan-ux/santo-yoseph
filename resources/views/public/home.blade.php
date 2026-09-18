@@ -133,7 +133,7 @@
                             <h4 class="font-bold text-xs text-slate-800 mt-0.5">Misa Harian Pagi</h4>
                         </div>
                         <div class="text-right">
-                            <p class="text-xs sm:text-sm font-black text-slate-900">06.00 WIB</p>
+                            <p class="text-xs sm:text-sm font-black text-slate-900">05.30 WIB</p>
                             <p class="text-[10px] text-slate-500">Gereja Utama</p>
                         </div>
                     </div>
